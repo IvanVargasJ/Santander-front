@@ -68,7 +68,7 @@ li {
     border-radius: 5px;
   }
 
-.promo {
+  .promo {
   display: flex;
   width: 70%;
   margin: 100px auto;
@@ -118,7 +118,6 @@ li {
     border: 0.5px solid;
     border-radius: 5px;
     border-color: rgb(168, 168, 168);
-    margin: ;
   }
 
   .ad button{
@@ -128,3 +127,132 @@ li {
     border: 0;
     border-radius: 5px;
   }
+
+
+.testimonials {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  background-color: #a1d683;
+  justify-content: space-around;
+  font-family: sans-serif;
+  padding: 3% 15%
+}
+
+  .testimonials article {
+    display: block;
+  }
+
+  .testimonials h3 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+
+  .testimonials > p {
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .trademarks {
+    flex-direction: column;
+    align-items: left;
+    margin: 70px;
+  } 
+    
+  .trademarks img {
+    width: 600px;
+  }
+
+  .trademarks button{
+    color: #fff;
+    background-color: #025157;
+    padding: 14px 12px 14px 12px;
+    border: 0;
+    border-radius: 5px;
+    margin: 0px;
+  }
+
+  figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+  }
+
+.card {
+  background-color: #fff;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.slide button{
+  color: #fff;
+  background-color: #025157;
+  padding: 14px 12px 14px 12px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 10px 35px 10px;
+  width: 95%;
+}
+
+.offer h6 {
+  font-size: 20px;
+  color: #009da8;
+  margin: 30px 0px 0px 12px;
+}
+
+.offer p {
+  font-size: 22px;
+  color: #343434;
+  line-height: 1.5;
+  margin: 10px 0px 0px 12px;
+}
+
+.slide {
+  flex-direction: column;
+  align-items: left;
+  margin: 70px;
+} 
+
+
+.offer img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.results {
+  display: flex;
+  margin: 20px 0px 35px 23px;
+}
+
+.results img {
+  margin: 10px 0px 0px 12px;
+  padding: 15px 15px 15px 15px;
+  width: 8%;
+}
+
+.results p {
+  font-size: 20px;
+  color: #a0a0a0;
+  line-height: 1.5;
+  margin: 10px 0px 0px 12px;
+}
+
+.company {
+  position: absolute;
+    bottom: -150px;
+    right: 380px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
