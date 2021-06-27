@@ -121,7 +121,7 @@ li {
   }
 
   .ad button{
-  color: #fff;
+    color: #fff;
     background-color: #025157;
     padding: 14px 12px 14px 12px;
     border: 0;
@@ -261,29 +261,136 @@ li {
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
   padding: 5% 10%;
   background-color: #025157;
+  font-family: sans-serif;
 }  
-  .feature-art {
+
+  .features-content {
+    margin: 30px 15px 0px 15px;
     background-color: white;
-    margin: 0px 15px 30px 15px;
-    width: 40%;
     align-items: center;
     display: flex;
     border-radius: 5px;
-  }
-  
-  .feature-art > h3 {
-    font-family: sans-serif;
-    font-size: 25px;
-    margin: 80px 0px 10px 25px;
+    overflow: hidden;
   }
 
-  .feature-art > p {
-    font-family: sans-serif;
+  .features-art {
+    padding: 30px 20px 40px 40px;
+    width: 60%;
+  }
+
+  .features-art img {
+    width: 60px;
+  }
+  
+  .features-art > h3 {
+    font-size: 25px;
+  }
+
+  .features-art > p {
     font-size: 15px;
-    margin: 0px 0px 10px 25px;
+    color: #7e7e7e;
   }
 
   .features-art > a {
-    font-family: sans-serif;
+    color: #67b54b;
+    text-decoration: none;
+  }
+
+  .feature-img {
+    width: 40%;
+    position: relative;
+    height: 95%;
+  }
+
+  .feature-img-box {
+    height: 250px;
+  }
+
+  .feature-img-box2 {
+    height: 250px;
+    padding-left: 60px;
+  }
+
+
+.work {
+  padding: 5% 10%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+  .work h2 {
+    font-size: 40px;
+    color: #025157;
+  }
+
+  .work > p {
+    font-size: 18px;
+    color: #46484c;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .work > a {
+    text-decoration: none;
     color: #67b54b;
   }
+
+
+  .work button{
+    color: #fff;
+    background-color: #025157;
+    padding: 14px 12px 14px 12px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }  
+
+  .step {
+    border: 1px solid #343434;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .step-img {
+    position: relative;
+    height: 350px;
+  }
+
+  .step-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .step-content {
+    height: 170px;
+    text-align: left;
+  }
+
+  .step-content h3 {
+    font-size: 25px;
+    color: #025157;
+    text-align: center;
+  }
+
+  .step-content > p {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .step-content > a {
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #67b54b;
+  }
+
+
+
